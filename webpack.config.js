@@ -20,6 +20,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     // 打包后文件的名称
     filename: "bundle.js",
+    publicPath: "/snakeGame", // 服务器路径
     environment: {
       //告诉webpack 不使用箭头函数
       arrowFunction: false,
